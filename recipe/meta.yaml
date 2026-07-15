@@ -1,5 +1,5 @@
 {% set name = "xcube-resampling" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-resampling/archive/v{{ version }}.tar.gz
-  sha256: af565c2c722844b32a0334820817dea761717b50024dbf125f5fa6630057d9cc
+  sha256: a09f185e1e57da9e1fdc79393c61a4ceca0b086b244528589af45fb6281d9803
 
 build:
   number: 0
